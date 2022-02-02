@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url("key.jpeg") no-repeat;
+    background-size: 100%;
+    background-position: center top;
+    height: 100%;
+    font-family: 'Futura', sans-serif;
+    text-align: left;
+    min-height: 75rem;
+    background-color: rgb(212, 169, 176);
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+
+}
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    display: inline-block;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+h1.contact {
+    text-align: center;
+    margin-top: 10%;
+}
+
+h1.a {
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+}
+h1.project {
+    text-align: center;
+    margin-top: 10%;
+}
+
+p.intro {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 23px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: aliceblue;
+    background-color: rgb(185, 217, 245);
+    
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  opacity: 97%;
+  border-radius: 50%;
+}
+
+h4.sum {
+    text-align: center;
+    padding-left: 50%;
+    padding-right: 20%;
+}
